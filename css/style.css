@@ -1,0 +1,245 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+/* Стили для демонстрации */
+html,
+body {
+  height: 100%;
+  background-color: #333;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1;
+}
+.wrapper {
+  min-height: 100%;
+  padding: 30px;
+}
+/* Основные стили */
+
+/*! Слайдер */
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0px 0px 30px 0px;
+}
+.swiper-container {
+  overflow: hidden;
+}
+.image-slider {
+  padding: 30px 0px 70px 0px;
+}
+.image-slider__wrapper {
+}
+.swiper-wrapper {
+}
+.image-slider__slide {
+}
+.swiper-slide {
+}
+.image-slider__image {
+  text-align: center;
+}
+.image-slider__image img {
+  max-width: 100%;
+  height: 400px;
+}
+
+/* Стрелки */
+.image-slider .swiper-button-prev::after,
+.image-slider .swiper-button-next::after {
+  color: #fff;
+  font-size: 80px;
+}
+
+/* Пагинация */
+.image-slider .swiper-pagination {
+  bottom: -30px;
+}
+
+/* Буллеты */
+.image-slider .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+/* Фракция */
+.image-slider .swiper-pagination-fraction {
+  font-size: 20px;
+  color: #fff;
+}
+
+/* Прогрессбар */
+.image-slider .swiper-pagination-progressbar-fill {
+  background-color: #7a956b;
+}
+
+/* Скролл */
+.image-slider .swiper-scrollbar-drag {
+  cursor: pointer;
+  background-color: #7a956b;
+}
+
+/* Автоширина */
+.image-slider .swiper-slide {
+  /* width: auto; */
+}
+
+/* Мультирядность */
+/* .image-slider {
+  height: 700px;
+}
+.image-slider .swiper-slide {
+  height: calc((100% - 30px) / 2);
+  overflow: hidden;
+} */
+
+/* Вертикальный слайдер */
+/* .image-slider {
+  padding: 0;
+  height: 700px;
+} */
+
+/* Эффект куб */
+/* .image-slider {
+  width: 500px;
+  margin: 0 auto;
+} */
+
+/* Миниатюры (превью) */
+/* .image-mini-slider {
+}
+.image-mini-slider__wrapper {
+}
+
+.image-mini-slider__slide {
+  opacity: 0.2;
+  transition: opacity 0.3s ease 0s;
+}
+.image-mini-slider__slide.swiper-slide-thumb-active {
+  opacity: 1;
+}
+.image-mini-slider__image {
+  position: relative;
+  padding: 0px 0px 30% 0px;
+  cursor: pointer;
+}
+.image-mini-slider__image img {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+} */
+
+/* Слайдер в слайдере */
+.image-in-slider {
+  height: 350px;
+}
+.image-in-slider__slide {
+  height: 350px;
+}
+.image-in-slider__image img {
+  max-width: 100%;
+}
+
+/* Передача управления */
+.text {
+  font-size: 25px;
+  line-height: 150%;
+  color: #fff;
+  margin: 50px 0;
+  background-color: #77608d;
+  padding: 10px;
+}
+.text-slider__slide {
+  font-size: 25px;
+  line-height: 150%;
+  color: #fff;
+}
+.text-slider__slide h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0px 0px 15px 0px;
+}
+
+.swiper-container {
+}
+.parallax-slider {
+}
+.parallax-slider__bg {
+}
+.parallax-slider__wrapper {
+}
+
+.parallax-slider__slide {
+  width: 100%;
+  height: 500px;
+  background: #8cb409
+    url(https://divino-d.com/uploads/product/32000/32006/517ae088bd7911e7a22f1866da87aa23_6a82a3183ddf11eaa2c11866da87aa23.jpg)
+    center no-repeat;
+  z-index: -2;
+}
+
+.parallax-slider__title {
+  font-size: 80px;
+  color: #341155;
+  font-weight: 700;
+}
+.parallax-slider__text {
+  font-size: 20px;
+  line-height: 18px;
+  font-weight: 700;
+}
+.parallax-slider__button {
+  display: block;
+  width: 150px;
+  padding: 12px;
+  background-color: #dd9b9b;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #341155;
+  text-align: center;
+}
+
+.image-slider__fraction {
+  padding: 10px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: #fff;
+}
+.image-slider__sepparator {
+  margin: 0px 15px;
+}
